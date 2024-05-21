@@ -1,6 +1,8 @@
 import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import HomeSectionCart from '../../HomeSectionCart/HomeSectionCart';
+import { Button } from '@mui/material';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 const HomeSectionCarosoul = () => {
   const responsive = {
     0: { items: 1 },
@@ -21,6 +23,9 @@ const HomeSectionCarosoul = () => {
           items={items}
           responsive={responsive}
         />
+        <Button variant="contained" className='z-50' sx={{position:'absolute', top:"8rem", right: "0rem", transform: "translatex(50%) rotate(90deg)"}}  aria-label='next'>
+        <KeyboardDoubleArrowRightIcon/>
+        </Button>
       </div>
 
     </div>
