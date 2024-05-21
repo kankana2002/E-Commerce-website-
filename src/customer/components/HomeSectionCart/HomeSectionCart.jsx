@@ -2,9 +2,9 @@ import React from 'react'
 
 const HomeSectionCart = () => {
   return (
-    <div className='cursor-pointer flex flex-col items-center bg-slate-300 rounded-lg shadow-lg overflow-hidden w-[15rem] mx-3'>
+    <div className='cursor-pointer flex flex-col items-center bg-slate-300 rounded-lg shadow-lg overflow-hidden w-[15rem] mx-3 border'>
         <div className='h-[13rem] w-[10rem]'>
-          <img className='object-cover object-top w-full h-full' src="https://getketchadmin.getketch.com/product/8905404414540/660/KHSH000453_jes1.JPG" alt="" />
+          <img className='object-cover object-top w-full h-full' src="https://img3.junaroad.com/uiproducts/19126277/pri_175_p-1673529652.jpg" alt="" />
 
         </div>
         <div className='p-4'> 

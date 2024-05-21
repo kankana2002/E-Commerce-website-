@@ -14,7 +14,7 @@ const HomeSectionCarosoul = () => {
 
 
   return (
-    <div className='relative px-4 lg:px-8'>
+    <div className=' border'>
       <div className='relative p-5'>
         <AliceCarousel
           animationDuration={1000}
@@ -22,9 +22,18 @@ const HomeSectionCarosoul = () => {
           disableButtonsControls
           items={items}
           responsive={responsive}
+          disableDotsControls
         />
-        <Button variant="contained" className='z-50' sx={{position:'absolute', top:"8rem", right: "0rem", transform: "translatex(50%) rotate(90deg)"}}  aria-label='next'>
-        <KeyboardDoubleArrowRightIcon/>
+        <Button variant="contained" className='z-50 bg-white' sx={{
+          position: 'absolute', top: "8rem", right: "0rem",
+          transform: "translatex(-50%) rotate(90deg)",
+          bgcolor: "white"
+        }} aria-label='next'>
+          <KeyboardDoubleArrowRightIcon sx={{ transform: "rotate(-90deg)", color: "black" }} />
+        </Button>
+
+        <Button variant="contained" className='z-50 bg-white' sx={{ position: 'absolute', top: "8rem", Left: "0rem", transform: "translatex(-50%) rotate(90deg)", bgcolor: "white" }} aria-label='next'>
+          <KeyboardDoubleArrowRightIcon sx={{ transform: "rotate(90deg)", color: "black" }} />
         </Button>
       </div>
 
