@@ -8,8 +8,8 @@ const HomeSectionCart = ({ product }) => {
           
         </div>
         <div className='p-4'> 
-        <h3 className='text-lg font-medium text-grey-900'>{product.brand}</h3>
-        <p className='mt-2 text-sm text-grey-500'>{product.title}</p>
+        <h3 className='text-lg font-medium text-gray-900'>{product.brand}</h3>
+        <p className='mt-2 text-sm text-gray-500'>{product.title}</p>
 
 
         </div>

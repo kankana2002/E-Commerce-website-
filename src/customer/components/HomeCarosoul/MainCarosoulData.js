@@ -1,5 +1,7 @@
 export const mainCarosoulData=[
 
+   
+
     {
          image : "https://www.frankart.global/wp-content/uploads/2020/10/PC_topbanner._SX3000_QL85_.jpg",
          
@@ -15,6 +17,7 @@ export const mainCarosoulData=[
         image : "https://cdn.autonomous.ai/static/upload/images/common/upload/20221012/Gaming-Accessories-Banner19bc015408.jpg",
     }
     
+   
 
 
 

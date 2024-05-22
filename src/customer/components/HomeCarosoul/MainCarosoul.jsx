@@ -14,17 +14,11 @@ const MainCarosoul = () => {
     }} className='cursor-pointer' role='presentation' src={item.image} alt=''/>)
   return(
     <AliceCarousel
-        autoPlay
-        
-        autoPlayStrategy="none"
-        autoPlayInterval={1000}
-        animationDuration={1000}
-        animationType="fadeout"
-        infinite
-        touchTracking={false}
-        disableDotsControls
-        disableButtonsControls
         items={items}
+        disableButtonsControls
+        autoPlay
+        autoPlayInterval={1000}
+        infinite
     />
   )
 };
